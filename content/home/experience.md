@@ -31,7 +31,6 @@ experience:
     date_start: '2017-08-20'
     date_end: ''
     description: |4-
-        Responsibilities include:
         
         * Developed a framework for cross-domain few-shot learning that utilizes unlabeled images from novel dataset during meta-training.  
         * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training.
@@ -46,8 +45,7 @@ experience:
     date_start: '2020-06-11'
     date_end: '2020-08-27'
     description: |2-
-        Responsibilities include:
-        
+
         * Analysed unsupervised and supervised contrastive representation learning for transfer learning in downstream linear evaluation, full-network transfer, few-shot recognition, and object detection tasks, suggesting that networks trained with contrastive learning is more transferable to a different domain than the networks trained with supervised cross-entropy loss.  
         * Proposed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss, that leverages both inter-class and intra-class separability leading to better transferability of these models over their standard-trained counterparts (*5.44*% improvement over cross-entropy models in linear evaluation protocol).
 

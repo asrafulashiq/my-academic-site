@@ -22,12 +22,29 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+
+
+  - title: Graduate Research Assistant
+    company: Rensselaer Polytechnic Institute
+    company_url: 
+    location: NY
+    date_start: '2017-08-20'
+    date_end: ''
+    description: |4-
+        Responsibilities include:
+        
+        * Developed a framework for cross-domain few-shot learning that utilizes unlabeled images from novel dataset during meta-training.  
+        * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training.
+        * Developed a deep learning model with hybrid attention mechanism (**HAMNet**) for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast 2.8%.
+        * Created a system that automatically tracks passengers and items, and detects unusual activities (baggage theft, left-behind items, etc.) at an airport security checkpoint (demo [video](https://drive.google.com/file/d/1KNUabcVEKMsFvQQ1u_NB5ZI6J9kRHuEe/view?usp=sharing)).
+
+
   - title: Research Intern
     company: IBM Research
     company_url: 'https://www.research.ibm.com/labs/watson/'
     location: NY
-    date_start: 'July 2020'
-    date_end: 'Aug 2020'
+    date_start: '2020-06-11'
+    date_end: '2020-08-27'
     description: |2-
         Responsibilities include:
         
@@ -39,7 +56,7 @@ experience:
     company: Kitware Inc.
     company_url: 'https://www.kitware.com/'
     location: NY
-    date_start: 'May 2019'
-    date_end: 'Jul 2019'
+    date_start: '2019-05-18'
+    date_end: '2019-08-18'
     description: Developed a deep adversarial model titled 'Dual-order Attentive Generative Adversarial Network (_DOA-GAN_)' for image and video copy-move forgery detection and localization, where the first-order attention is designed to capture copy-move location information, and the second-order attention exploits more discriminative features for the patch co-occurrence.
 ---

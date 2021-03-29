@@ -3,11 +3,11 @@
 
 title: "A Broad Study on the Transferability of Visual Representations with Contrastive Learning"
 authors: [A Islam, R Chen, R Panda, L Karlinksky, RJ Radke, RS Feris]
-date: 
+date: 2021-03-20
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 
+publishDate: 2021-03-20
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -17,7 +17,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: "arXiv"
-publication_short: ""
+publication_short: "arXiv"
 
 abstract: ""
 

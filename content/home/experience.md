@@ -22,24 +22,24 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
-    date_start: '2017-01-01'
-    date_end: ''
+  - title: Research Intern
+    company: IBM Research
+    company_url: 'https://www.research.ibm.com/labs/watson/'
+    location: NY
+    date_start: 'July 2020'
+    date_end: 'Aug 2020'
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Analysed unsupervised and supervised contrastive representation learning for transfer learning in downstream linear evaluation, full-network transfer, few-shot recognition, and object detection tasks, suggesting that networks trained with contrastive learning is more transferable to a different domain than the networks trained with supervised cross-entropy loss.  
+        * Proposed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss, that leverages both inter-class and intra-class separability leading to better transferability of these models over their standard-trained counterparts (*5.44*% improvement over cross-entropy models in linear evaluation protocol).
+
         
-  - title: Professor
-    company: University X
-    company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Research Intern
+    company: Kitware Inc.
+    company_url: 'https://www.kitware.com/'
+    location: NY
+    date_start: 'May 2019'
+    date_end: 'Jul 2019'
+    description: Developed a deep adversarial model titled 'Dual-order Attentive Generative Adversarial Network (_DOA-GAN_)' for image and video copy-move forgery detection and localization, where the first-order attention is designed to capture copy-move location information, and the second-order attention exploits more discriminative features for the patch co-occurrence.
 ---

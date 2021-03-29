@@ -17,12 +17,17 @@ jobs:
 
       - name: Install AsciiDoctor and Rouge
         run: sudo gem install asciidoctor rouge
-        
+      
+      - name: Install GO
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.15'
+
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 0.81.0
-          HUGO_EXTENDED: true
+          HUGO_EXTENDED: false
           TARGET_REPO: asrafulashiq/asrafulashiq.github.io
           TARGET_BRANCH: master
           TOKEN: ${{ secrets.MY_TOKEN }}

@@ -71,7 +71,7 @@ highlight_name: false
 ---
 
 Hello! 
-I am a fourth year PhD student at the ECSE department of Rensselaer Polytechnic Institute (RPI), Troy, NY, supervised by Prof. Richard Radke. Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
-Previously, I spent time at IBM Research and Kitware. I completed my undergrad in Electrical Engineering from BUET, Bangladesh.
+I am a fourth year PhD student at the ECSE department of [Rensselaer Polytechnic Institute (RPI)](https://www.ecse.rpi.edu/), Troy, NY, supervised by [Prof. Richard Radke](https://www.ecse.rpi.edu/~rjradke/index.htm). Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
+Previously, I spent time at [IBM Research](https://www.research.ibm.com/labs/watson/https://www.research.ibm.com/labs/watson/) and [Kitware](https://www.kitware.com/). I completed my undergrad in Electrical Engineering from [BUET](https://eee.buet.ac.bd/), Bangladesh.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} My {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

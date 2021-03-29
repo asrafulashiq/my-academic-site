@@ -1,14 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization
-"
-authors: [A Islam, C Long, RJ Radke]
-date: 2021-02-05
+title: "Weakly Supervised Temporal Action Localization Using Deep Metric Learning"
+authors: [A Islam, RJ Radke]
+date: 2020-03-01
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-02-05
+publishDate: 2020-03-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -17,8 +16,8 @@ publishDate: 2021-02-05
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "35th AAAI Conference on Artificial Intelligence"
-publication_short: "AAAI"
+publication: "IEEE Winter Conf. on Applications of Computer Vision"
+publication_short: "WACV"
 
 abstract: ""
 
@@ -37,10 +36,10 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/2101.00545
-url_code: https://github.com/asrafulashiq/hamnet
+url_pdf: http://openaccess.thecvf.com/content_WACV_2020/papers/Islam_Weakly_Supervised_Temporal_Action_Localization_Using_Deep_Metric_Learning_WACV_2020_paper.pdf
+url_code: https://github.com/asrafulashiq/wsad
 url_dataset:
-url_poster: https://drive.google.com/file/d/10N321SH8A7lsm3cYVzZe37Mlq4mRlUdM/view?usp=sharing
+url_poster: https://drive.google.com/open?id=1Yn7wFNRQIXKzuU48AwaWRwMcjw_jaVeX
 url_project:
 url_slides:
 url_source:
@@ -51,7 +50,7 @@ url_video:
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "Smart"
+  focal_point: ""
   preview_only: false
 
 # Associated Projects (optional).

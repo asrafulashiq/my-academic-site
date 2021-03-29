@@ -1,14 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization
-"
-authors: [A Islam, C Long, RJ Radke]
-date: 2021-02-05
+title: "DOA-GAN: Dual-Order Attentive Generative Adversarial Network for Image Copy-move Forgery Detection and Localization"
+authors: [A Islam, C Long, A Basharat, A Hoogs]
+date: 2020-06-15
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-02-05
+publishDate: 2020-06-15
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -17,8 +16,8 @@ publishDate: 2021-02-05
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "35th AAAI Conference on Artificial Intelligence"
-publication_short: "AAAI"
+publication: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+publication_short: "CVPR"
 
 abstract: ""
 
@@ -37,14 +36,14 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/2101.00545
-url_code: https://github.com/asrafulashiq/hamnet
+url_pdf: https://openaccess.thecvf.com/content_CVPR_2020/papers/Islam_DOA-GAN_Dual-Order_Attentive_Generative_Adversarial_Network_for_Image_Copy-Move_Forgery_CVPR_2020_paper.pdf
+url_code:
 url_dataset:
-url_poster: https://drive.google.com/file/d/10N321SH8A7lsm3cYVzZe37Mlq4mRlUdM/view?usp=sharing
+url_poster: https://drive.google.com/open?id=1iiSL9XbH6CqO2Ftq-YlMFMQJ12dzib2V
 url_project:
 url_slides:
 url_source:
-url_video:
+url_video: https://drive.google.com/open?id=1dmR9o31IPV2wqSdnUDsP42KjslFCua46
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

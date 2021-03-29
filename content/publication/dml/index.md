@@ -22,7 +22,10 @@ publication_short: "WACV"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "It is expensive and time-consuming to annotate both action labels
+and temporal boundaries of videos. To this end, we propose
+a weakly supervised temporal action localization method
+that only requires video-level action instances as supervision during training. "
 
 tags: []
 categories: []
@@ -43,7 +46,7 @@ url_poster: https://drive.google.com/open?id=1Yn7wFNRQIXKzuU48AwaWRwMcjw_jaVeX
 url_project:
 url_slides:
 url_source:
-url_video:
+url_video: https://drive.google.com/open?id=1aJAj3cQr4F9wsasyoQd9dcJualgMDRfP
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

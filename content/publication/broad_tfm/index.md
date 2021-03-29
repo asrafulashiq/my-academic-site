@@ -22,7 +22,7 @@ publication_short: "arXiv"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "We conduct a comprehensive study on the transferability of learned representations of different contrastive approaches for linear evaluation, full-network transfer, and few-shot recognition on 12 downstream datasets from different domains, and object detection tasks on MSCOCO and VOC0712. The results show that the contrastive approaches learn representations that are easily transferable to a different downstream task. We further observe that the joint objective of self-supervised contrastive loss with cross-entropy/supervised-contrastive loss leads to better transferability of these models over their supervised counterparts."
 
 tags: []
 categories: []

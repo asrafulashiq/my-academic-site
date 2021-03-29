@@ -5,8 +5,8 @@
 
 # Appearance
 
-theme: minimal
-day_night: false
+theme: ocean
+day_night: true
 font: 'Minimal'
 font_size: M
 
@@ -14,7 +14,7 @@ font_size: M
 
 site_type: Person
 local_business_type: ''
-org_name: ''
+org_name: 'RPI'
 description: ''
 twitter: ''
 
@@ -31,12 +31,14 @@ address:
   country_code: US
 
 
+
+
 # Site header
 
 main_menu:
   enable: true
   align: l
-  show_logo: true
+  show_logo: false
   show_language: false
   show_day_night: true
   show_search: true

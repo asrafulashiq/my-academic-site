@@ -22,7 +22,14 @@ publication_short: "ICDSC"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Automatic algorithms for tracking and associating passengers and
+their divested objects at an airport security screening checkpoint
+would have great potential for improving checkpoint efficiency,
+including flow analysis, theft detection, line-of-sight maintenance,
+and risk-based screening. In this paper, we present algorithms for
+these tracking and association problems and demonstrate their
+effectiveness in a full-scale physical simulation of an airport security
+screening checkpoint."
 
 tags: []
 categories: []

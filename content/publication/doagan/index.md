@@ -22,7 +22,8 @@ publication_short: "CVPR"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "We propose a Generative Adversarial Network with a dual-order attention model to detect and
+localize copy-move forgeries. In the generator, the firstorder attention is designed to capture copy-move location information, and the second-order attention exploits more discriminative features for the patch co-occurrence.  The discriminator network is designed to further ensure more accurate localization results."
 
 tags: []
 categories: []

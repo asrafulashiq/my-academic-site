@@ -23,7 +23,7 @@ publication_short: "AAAI"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Most existing methods in weakly-supervised action localization rely on a Multiple Instance Learning (MIL) framework to predict the start and end frame of each action category in a video. However, the existing MIL-based approach has a major limitation of only capturing the most discriminative frames of an action, ignoring the full extent of an activity. Moreover, these methods cannot model background activity effectively, which plays an important role in localizing foreground activities. In this paper, we present a novel framework named HAM-Net with a hybrid attention mechanism which includes temporal soft, semi-soft and hard attentions to address these issues."
 
 tags: []
 categories: []

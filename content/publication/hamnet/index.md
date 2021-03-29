@@ -3,12 +3,12 @@
 
 title: "A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization
 "
-authors: []
-date: 2/9/2021
+authors: [A Islam, C Long, RJ Radke]
+date: 2021-02-05
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2/9/2021
+publishDate: 2021-02-05
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

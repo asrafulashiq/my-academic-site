@@ -50,7 +50,7 @@ url_video: https://drive.google.com/open?id=1dmR9o31IPV2wqSdnUDsP42KjslFCua46
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "Smart"
+  focal_point: "Right"
   preview_only: false
 
 # Associated Projects (optional).

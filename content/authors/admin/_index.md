@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Ashraful Islam
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,7 +31,7 @@ education:
   - course: MS in Computer Engineering
     institution: Rensselaer Polytechnic Institute (RPI)
     year: 2019
-  - course: BSc in EE
+  - course: BS in EE
     institution: Bangladesh University of Engineering and Technology (BUET)
     year: 2017
 
@@ -64,14 +64,14 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "islama6@rpi.edu"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
 Hello! 
 I am a fourth year PhD student at the ECSE department of [Rensselaer Polytechnic Institute (RPI)](https://www.ecse.rpi.edu/), Troy, NY, supervised by [Prof. Richard Radke](https://www.ecse.rpi.edu/~rjradke/index.htm). Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
 Previously, I spent time at [IBM Research](https://www.research.ibm.com/labs/watson/https://www.research.ibm.com/labs/watson/) and [Kitware](https://www.kitware.com/). I completed my undergrad in Electrical Engineering from [BUET](https://eee.buet.ac.bd/), Bangladesh.
 
-{{< icon name="download" pack="fas" >}} My {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my [resumé](https://drive.google.com/open?id=1ly0pWsLP7MAj1-9eiiIMWqErK4odFdNV).

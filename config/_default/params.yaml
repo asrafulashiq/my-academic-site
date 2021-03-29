@@ -5,13 +5,12 @@
 
 # Appearance
 
-theme: 1950s
+theme: forest
 day_night: true
 font: 'Minimal'
 font_size: M
 
 # SEO
-
 site_type: Person
 local_business_type: ''
 org_name: 'RPI'
@@ -20,7 +19,8 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: islama6@rpi.edu
+# email: islama6@rpi.edu
+email: asrafulashiq@gmail.com
 phone: (347) 536-0812
 address:
   street: 1508 15th St
@@ -37,7 +37,7 @@ address:
 
 main_menu:
   enable: true
-  align: l
+  align: r
   show_logo: false
   show_language: false
   show_day_night: true

@@ -34,7 +34,7 @@ experience:
         
         * Developed a framework for cross-domain few-shot learning that utilizes unlabeled images from novel dataset during meta-training.  
         * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training.
-        * Developed a deep learning model with hybrid attention mechanism (**HAMNet**) for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast 2.8%.
+        * Developed a deep learning model with hybrid attention mechanism (_HAMNet_) for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast _2.8_%.
         * Created a system that automatically tracks passengers and items, and detects unusual activities (baggage theft, left-behind items, etc.) at an airport security checkpoint (demo [video](https://drive.google.com/file/d/1KNUabcVEKMsFvQQ1u_NB5ZI6J9kRHuEe/view?usp=sharing)).
 
 
@@ -47,7 +47,7 @@ experience:
     description: |2-
 
         * Analysed unsupervised and supervised contrastive representation learning for transfer learning in downstream linear evaluation, full-network transfer, few-shot recognition, and object detection tasks, suggesting that networks trained with contrastive learning is more transferable to a different domain than the networks trained with supervised cross-entropy loss.  
-        * Proposed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss, that leverages both inter-class and intra-class separability leading to better transferability of these models over their standard-trained counterparts (*5.44*% improvement over cross-entropy models in linear evaluation protocol).
+        * Proposed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss, that leverages both inter-class and intra-class separability leading to better transferability of these models over their standard-trained counterparts (_5.44_% improvement over cross-entropy models in linear evaluation protocol).
 
         
   - title: Research Intern

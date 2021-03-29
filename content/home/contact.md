@@ -18,10 +18,10 @@ content:
   
   
   # Email form provider
-  form:
-    provider: formspree
-    formspree:
-      id: mwkaezav
+  # form:
+  #   provider: formspree
+  #   formspree:
+  #     id: mwkaezav
 
 design:
   columns: '2'

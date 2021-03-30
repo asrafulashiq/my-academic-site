@@ -36,7 +36,6 @@ design:
   #   4 = Citation (publication only)
   view: 3
 
-  background:
-    color: 'gray'
-    # text_color_light: true
+  # background:
+  #   color: 'gray'
 ---

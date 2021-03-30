@@ -5,8 +5,8 @@
 
 # Appearance
 
-theme: forest
-day_night: true
+theme: minimal
+day_night: false
 font: 'Minimal'
 font_size: M
 

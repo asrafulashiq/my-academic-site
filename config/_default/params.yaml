@@ -40,7 +40,7 @@ main_menu:
   align: r
   show_logo: false
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: true
 

@@ -23,7 +23,7 @@ abstract: ""
 
 # Summary. An optional shortened abstract.
 summary: "It is expensive and time-consuming to annotate both action labels
-and temporal boundaries of videos. To this end, we propose
+and temporal boundaries of videos. We propose
 a weakly supervised temporal action localization method
 that only requires video-level action instances as supervision during training. "
 

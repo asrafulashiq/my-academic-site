@@ -26,16 +26,15 @@ experience:
 
   - title: Graduate Research Assistant
     company: Rensselaer Polytechnic Institute
-    company_url: 
+    company_url: 'https://www.rpi.edu/'
     location: NY
     date_start: '2017-08-20'
     date_end: ''
     description: |4-
         
-        * Developed a framework for cross-domain few-shot learning that utilizes unlabeled images from novel dataset during meta-training.  
-        * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training.
-        * Developed a deep learning model with hybrid attention mechanism (_HAMNet_) for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast _2.8_%.
-        * Created a system that automatically tracks passengers and items, and detects unusual activities (baggage theft, left-behind items, etc.) at an airport security checkpoint (demo [video](https://drive.google.com/file/d/1KNUabcVEKMsFvQQ1u_NB5ZI6J9kRHuEe/view?usp=sharing)).
+        * Developed a framework for cross-domain few-shot learning that uses unlabeled images from novel dataset during meta-training.  
+        * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training. Also developed a deep learning model with _hybrid attention mechanism (HAMNet)_ for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast 2.8%.
+        * Developed a system that automatically tracks passengers and items, and detects unusual activities (baggage theft, left-behind items, etc.) at an airport security checkpoint (demo [video](https://drive.google.com/file/d/1KNUabcVEKMsFvQQ1u_NB5ZI6J9kRHuEe/view?usp=sharing)).
 
 
   - title: Research Intern
@@ -44,10 +43,7 @@ experience:
     location: NY
     date_start: '2020-06-11'
     date_end: '2020-08-27'
-    description: |2-
-
-        * Analysed unsupervised and supervised contrastive representation learning for transfer learning in downstream linear evaluation, full-network transfer, few-shot recognition, and object detection tasks, suggesting that networks trained with contrastive learning is more transferable to a different domain than the networks trained with supervised cross-entropy loss.  
-        * Proposed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss, that leverages both inter-class and intra-class separability leading to better transferability of these models over their standard-trained counterparts (_5.44_% improvement over cross-entropy models in linear evaluation protocol).
+    description: I researched on unsupervised and supervised contrastive representation learning for transfer learning. Study suggests that networks trained with contrastive loss is more transferable to a different domain than the networks trained with supervised cross-entropy loss. Proposed and analyzed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss that leads to better transferability of these models over their standard-trained counterparts.
 
         
   - title: Research Intern
@@ -56,5 +52,5 @@ experience:
     location: NY
     date_start: '2019-05-18'
     date_end: '2019-08-18'
-    description: Developed a deep adversarial model titled 'Dual-order Attentive Generative Adversarial Network (_DOA-GAN_)' for image and video copy-move forgery detection and localization, where the first-order attention is designed to capture copy-move location information, and the second-order attention exploits more discriminative features for the patch co-occurrence.
+    description: I developed a deep adversarial model titled 'Dual-order Attentive Generative Adversarial Network (DOA-GAN)' for image and video copy-move forgery detection and localization.
 ---

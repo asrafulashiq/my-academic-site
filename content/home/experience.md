@@ -43,7 +43,7 @@ experience:
     location: NY
     date_start: '2020-06-11'
     date_end: '2020-08-27'
-    description: I researched on unsupervised and supervised contrastive representation learning for transfer learning. Study suggests that networks trained with contrastive loss is more transferable to a different domain than the networks trained with supervised cross-entropy loss. Proposed and analyzed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss that leads to better transferability of these models over their standard-trained counterparts.
+    description: I researched on unsupervised and supervised contrastive representation learning for transfer learning. Our study suggests that networks trained with contrastive loss is more transferable to a different domain than the networks trained with supervised cross-entropy loss. Proposed and analyzed joint objective of self-supervised contrastive loss with cross-entropy or supervised contrastive loss that leads to better transferability of these models over their standard-trained counterparts.
 
         
   - title: Research Intern

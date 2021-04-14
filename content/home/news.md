@@ -23,10 +23,11 @@ design:
   view: 2
 ---
 
-
+- **April 2020**: Passed Doctoral Candidacy Exam.
+- **April 2020**: Paper accepted to **CVPR workshop**.
 - **Dec 2020**: Paper accepted to **AAAI 2021**.
 - **June 2020**: Started summer internship at [IBM Research](https://www.research.ibm.com/labs/watson/).
 - **Feb 2020**: Paper accepted to **CVPR 2020**.
 - **Dec 2019**: Paper accepted to **WACV 2020**.
 - **May 2019**: Started summer internship at [Kitware Inc](https://www.kitware.com/).
-- **Sep 2018**: Best paper award in ICDSC 2018.
+- **Sep 2018**: Best paper award in **ICDSC 2018**.

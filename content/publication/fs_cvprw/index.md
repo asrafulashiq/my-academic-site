@@ -37,7 +37,7 @@ featured: false
 #   icon: twitter
 
 url_pdf: "#publications"
-url_code: "#publications"
+url_code: 
 url_dataset:
 url_poster:
 url_project:

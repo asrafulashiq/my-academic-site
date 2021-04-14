@@ -36,8 +36,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
-url_code: 
+url_pdf: "#publications"
+url_code: "#publications"
 url_dataset:
 url_poster:
 url_project:

@@ -23,6 +23,7 @@ design:
   view: 2
 ---
 
+- **May 2021**: Started summer internship at [Microsoft Research](https://www.microsoft.com/en-us/research/).
 - **April 2020**: Passed Doctoral Candidacy Exam.
 - **April 2020**: Paper accepted to **CVPR workshop**.
 - **Dec 2020**: Paper accepted to **AAAI 2021**.

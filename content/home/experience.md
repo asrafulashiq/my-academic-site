@@ -36,6 +36,14 @@ experience:
         * Proposed a weakly supervised temporal action localization method using metric learning that only requires video-level action instances as supervision during training. Also developed a deep learning model with _hybrid attention mechanism (HAMNet)_ for solving the issues of action completeness and background modeling in temporal action localization with weak supervision, outperforming SOTA methods by atleast 2.8%.
         * Developed a system that automatically tracks passengers and items, and detects unusual activities (baggage theft, left-behind items, etc.) at an airport security checkpoint (demo [video](https://drive.google.com/file/d/1KNUabcVEKMsFvQQ1u_NB5ZI6J9kRHuEe/view?usp=sharing)).
 
+  - title: Research Intern
+    company: Microsoft Research
+    company_url: 'https://www.microsoft.com/en-us/research/'
+    location: WA
+    date_start: '2021-05-17'
+    date_end: '2021-08-20'
+    description: My project is related to self/semi-supervised multi-task learning, particularly reconstructing camera pose, segmentation, and scene mesh from RGBD stream with minimum supervision. I am working with Mixed Reality Team (the group responsible for Hololens). 
+
 
   - title: Research Intern
     company: IBM Research

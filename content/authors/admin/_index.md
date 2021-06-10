@@ -14,7 +14,7 @@ organizations:
   url: https://www.rpi.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
+bio: Broadly, I am interested in computer vision and deep learning. I develop deep learning models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
 
 # Interests to show in About widget
 interests:

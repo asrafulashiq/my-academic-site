@@ -25,7 +25,7 @@ design:
 
 - **May 2021**: Started summer internship at [Microsoft Research](https://www.microsoft.com/en-us/research/).
 - **April 2020**: Passed Doctoral Candidacy Exam.
-- **April 2020**: Paper accepted to **CVPR workshop**.
+- **April 2020**: Paper accepted as **oral** to **[CVPR L2ID workshop](https://l2id.github.io/)**.
 - **Dec 2020**: Paper accepted to **AAAI 2021**.
 - **June 2020**: Started summer internship at [IBM Research](https://www.research.ibm.com/labs/watson/).
 - **Feb 2020**: Paper accepted to **CVPR 2020**.

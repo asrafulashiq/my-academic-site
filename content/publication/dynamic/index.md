@@ -3,11 +3,11 @@
 
 title: "Dynamic Distillation Network for Cross-Domain Few-Shot Recognition with Unlabeled Data"
 authors: [A Islam, R Chen, R Panda, L Karlinksky, RS Feris, RJ Radke]
-date: 2021-06-20
+date: 2021-06-10
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2021-06-20
+publishDate: 2021-06-10
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

@@ -39,11 +39,11 @@ featured: false
 url_pdf: "#publications"
 url_code: 
 url_dataset:
-url_poster:
+url_poster: https://drive.google.com/file/d/1kz95vpx1wVK_p_klLnWtMzD73wHy8mBj/view?usp=sharing
 url_project:
-url_slides:
+url_slides: https://drive.google.com/file/d/123yODqcmkLHcTso27pefXGadG4mcr7K2/view?usp=sharing
 url_source:
-url_video: 
+url_video: https://youtu.be/2tyWXZruVx8
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

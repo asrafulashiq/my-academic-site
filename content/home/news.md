@@ -23,6 +23,7 @@ design:
   view: 2
 ---
 
+- **July 2021**: Our [paper](https://arxiv.org/abs/2103.13517) on contrastive learning accepted to **[ICCV 2021](http://iccv2021.thecvf.com/home)**.
 - **May 2021**: Started summer internship at [Microsoft Research](https://www.microsoft.com/en-us/research/).
 - **April 2020**: Passed Doctoral Candidacy Exam.
 - **April 2020**: Paper accepted as **oral** to **[CVPR L2ID workshop](https://l2id.github.io/)**.

@@ -22,7 +22,7 @@ design:
   columns: "2"
   view: 2
 ---
-
+- **Sep 2021**: One [paper](https://arxiv.org/abs/2106.07807) accepted to **[NeurIPS 2021](https://nips.cc/Conferences/2021/)**. 
 - **July 2021**: Our [paper](https://arxiv.org/abs/2103.13517) on contrastive learning accepted to **[ICCV 2021](http://iccv2021.thecvf.com/home)**.
 - **May 2021**: Started summer internship at [Microsoft Research](https://www.microsoft.com/en-us/research/).
 - **April 2020**: Passed Doctoral Candidacy Exam.

@@ -41,8 +41,8 @@ experience:
     company_url: 'https://www.microsoft.com/en-us/research/'
     location: WA
     date_start: '2021-05-17'
-    date_end: '2021-08-20'
-    description: My work focuses broadly on self­-supervised multi­task representation learning for 3D computer vision. Specifically, I am working on self-supervised pretraining of deep neural networks that provide better representations for downstream camera pose estimation, segmentation, and scene mesh generation from RGBD streams with minimum supervision.
+    date_end: '2021-08-27'
+    description: My work focuses broadly on self­-supervised multi­task representation learning for 3D computer vision. Specifically, I am working on self-supervised pretraining of deep neural networks that provide better representations for downstream camera pose estimation and segmentation task.
 
 
   - title: Research Intern

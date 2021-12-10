@@ -39,9 +39,9 @@ featured: false
 url_pdf: https://arxiv.org/abs/2106.07807
 url_code: https://github.com/asrafulashiq/dynamic-cdfsl
 url_dataset:
-url_poster:
+url_poster: https://drive.google.com/file/d/1NmTc7xbyWRN6P0tXWq4AQLTDoVbD6str/view?usp=sharing
 url_project:
-url_slides:
+url_slides: https://drive.google.com/file/d/1OQVDxEzLsQ_RWYaZeozHJ52vCFybh8v6/view?usp=sharing
 url_source:
 url_video:
 

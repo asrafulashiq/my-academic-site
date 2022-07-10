@@ -73,7 +73,7 @@ highlight_name: true
 ---
 
 Hello! 
-I am a final year PhD student at the ECSE department of [Rensselaer Polytechnic Institute (RPI)](https://www.ecse.rpi.edu/), Troy, NY, supervised by [Prof. Richard Radke](https://www.ecse.rpi.edu/~rjradke/index.htm). Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
+I am a computer vision and deep learning engineer at [Nvidia](https://developer.nvidia.com/drive). I have recently completed my PhD from the ECSE department of [Rensselaer Polytechnic Institute (RPI)](https://www.ecse.rpi.edu/), Troy, NY, supervised by [Prof. Richard Radke](https://www.ecse.rpi.edu/~rjradke/index.htm). Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking. 
 
 Previously, I spent three wonderful summers at  [Microsoft Research](https://www.microsoft.com/en-us/research/), [IBM Research](https://www.research.ibm.com/labs/watson/https://www.research.ibm.com/labs/watson/) and [Kitware](https://www.kitware.com/). I completed my undergrad in Electrical Engineering from [BUET](https://eee.buet.ac.bd/), Bangladesh.
 

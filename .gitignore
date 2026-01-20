@@ -3,6 +3,8 @@
 
 # Hugo
 /resources/
-public/
 jsconfig.json
 node_modules/
+
+# Local Hugo binary
+/bin/

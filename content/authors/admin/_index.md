@@ -77,4 +77,4 @@ I am a computer vision and deep learning engineer at [Nvidia](https://developer.
 
 Previously, I spent three wonderful summers at  [Microsoft Research](https://www.microsoft.com/en-us/research/), [IBM Research](https://www.research.ibm.com/labs/watson/https://www.research.ibm.com/labs/watson/) and [Kitware](https://www.kitware.com/). I completed my undergrad in Electrical Engineering from [BUET](https://eee.buet.ac.bd/), Bangladesh.
 
-{{< icon name="download" pack="fas" >}}  My [Resumé](https://drive.google.com/open?id=1ly0pWsLP7MAj1-9eiiIMWqErK4odFdNV).
+📄 My [Resumé](https://drive.google.com/open?id=1ly0pWsLP7MAj1-9eiiIMWqErK4odFdNV).

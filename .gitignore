@@ -5,6 +5,4 @@
 /resources/
 jsconfig.json
 node_modules/
-
-# Local Hugo binary
-/bin/
+hugo_stats.json

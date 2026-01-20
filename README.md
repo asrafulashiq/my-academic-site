@@ -2,39 +2,25 @@
 
 This is the source repository for my personal academic website hosted at [asrafulashiq.github.io](https://asrafulashiq.github.io/).
 
-Built with [Hugo](https://gohugo.io/) and the [Wowchemy Academic](https://wowchemy.com/) theme.
+Built with [Hugo](https://gohugo.io/) and [HugoBlox](https://hugoblox.com/) (formerly Wowchemy Academic).
 
 ## Prerequisites
 
-- **Hugo Extended v0.89.4** (required for compatibility with the Wowchemy theme)
+- **Hugo Extended** (latest version)
 - **Go** (for Hugo modules)
+- **Node.js 18+** (for TailwindCSS)
 
-### Installing Hugo
+### Install Dependencies
 
-This project requires Hugo v0.89.4 (extended) specifically. Newer versions have breaking changes with the Wowchemy theme.
-
-**Option 1: Download directly (recommended)**
+**macOS (using Homebrew):**
 ```bash
-# macOS ARM64 (Apple Silicon)
-curl -L https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_extended_0.89.4_macOS-ARM64.tar.gz -o hugo.tar.gz
-tar -xzf hugo.tar.gz hugo
-mv hugo bin/hugo  # or /usr/local/bin/hugo
-
-# macOS Intel
-curl -L https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_extended_0.89.4_macOS-64bit.tar.gz -o hugo.tar.gz
-tar -xzf hugo.tar.gz hugo
-mv hugo bin/hugo
+brew install hugo go node
 ```
 
-**Option 2: Use the local binary (if already set up)**
+**Install TailwindCSS (in project directory):**
 ```bash
-./bin/hugo version
-```
-
-### Installing Go
-
-```bash
-brew install go
+cd my-academic-site
+npm install
 ```
 
 ## Project Structure
@@ -42,7 +28,7 @@ brew install go
 ```
 my-academic-site/
 ├── config/_default/     # Site configuration
-│   ├── config.yaml      # Main Hugo config
+│   ├── hugo.yaml        # Main Hugo config
 │   ├── params.yaml      # Theme parameters
 │   ├── menus.yaml       # Navigation menus
 │   └── languages.yaml   # Language settings
@@ -54,7 +40,8 @@ my-academic-site/
 ├── assets/              # Images and media
 ├── static/              # Static files (copied as-is)
 ├── public/              # Generated site (git submodule → asrafulashiq.github.io)
-└── bin/                 # Local Hugo binary (gitignored)
+├── package.json         # Node.js dependencies (TailwindCSS)
+└── go.mod               # Hugo module dependencies
 ```
 
 ## Development Workflow
@@ -65,13 +52,13 @@ my-academic-site/
 git clone https://github.com/asrafulashiq/my-academic-site.git
 cd my-academic-site
 git submodule update --init --recursive
+npm install
 ```
 
 ### 2. Preview locally
 
 ```bash
-./bin/hugo server
-# Or if Hugo is in PATH: hugo server
+hugo server
 ```
 
 Open [http://localhost:1313](http://localhost:1313) in your browser.
@@ -88,8 +75,7 @@ Edit files in the `content/` directory:
 ### 4. Build the site
 
 ```bash
-./bin/hugo
-# Or: hugo
+hugo
 ```
 
 ### 5. Deploy to GitHub Pages
@@ -124,9 +110,14 @@ Or use the helper script:
      - admin
      - Co-Author Name
    date: "2024-01-01"
-   publication_types: ["1"]  # 1=Conference, 2=Journal
-   publication: "Conference Name"
+   publication_types: ["article-journal"]  # or "paper-conference"
+   publication: "Conference/Journal Name"
    abstract: "Abstract text..."
+   links:
+     - type: pdf
+       url: "paper.pdf"
+     - type: code
+       url: "https://github.com/..."
    ---
    ```
 
@@ -146,15 +137,18 @@ Edit files in `content/home/`:
 
 ## Troubleshooting
 
-### Hugo version mismatch
+### TailwindCSS not found
 
-If you see errors about `getenv` or `security.funcs`, you're using a newer Hugo version. This project requires Hugo v0.89.4.
+Make sure to run `npm install` in the project directory:
+```bash
+npm install tailwindcss @tailwindcss/typography
+```
 
 ### Module download fails
 
-Ensure Go is installed:
+Ensure Go is installed and run:
 ```bash
-go version
+hugo mod get -u
 ```
 
 ### Submodule issues
@@ -163,6 +157,12 @@ go version
 git submodule update --init --recursive
 ```
 
+### Deprecated warnings
+
+The content uses some deprecated front matter keys. These are warnings only and don't affect the build. To fix them:
+- Replace `url_pdf`, `url_code`, etc. with `links: [{type: pdf, url: ...}]` format
+- Replace `_build` with `build` in front matter
+
 ## License
 
-Content is copyright Ashraful Islam. The Wowchemy theme is licensed under MIT.
+Content is copyright Ashraful Islam. The HugoBlox theme is licensed under MIT.

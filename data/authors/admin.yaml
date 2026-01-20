@@ -1,0 +1,121 @@
+schema: hugoblox/author/v1
+slug: admin
+is_owner: true
+name:
+  display: Ashraful Islam
+  given: Ashraful
+  family: Islam
+postnominals:
+  - PhD
+role: Computer Vision & Deep Learning Engineer
+bio: |
+  I am a computer vision and deep learning engineer at NVIDIA. I completed my PhD from the ECSE department of Rensselaer Polytechnic Institute (RPI), Troy, NY, supervised by Prof. Richard Radke. Broadly, I am interested in computer vision and deep learning. I develop neural network models for unsupervised, semi-supervised, weakly-supervised, and few-shot learning. I have also worked on action detection and object tracking.
+
+  Previously, I spent three wonderful summers at Microsoft Research, IBM Research and Kitware. I completed my undergrad in Electrical Engineering from BUET, Bangladesh.
+
+affiliations:
+  - name: NVIDIA
+    url: https://developer.nvidia.com/drive
+
+links:
+  - icon: at-symbol
+    url: mailto:asrafulashiq@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/asrafulashiq
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/ashraful-islam-04340397/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=QC0yhKoAAAAJ&hl=en
+
+interests:
+  - Computer Vision
+  - Deep Learning
+  - Self-supervised Learning
+
+education:
+  - degree: PhD in Computer Engineering
+    institution: Rensselaer Polytechnic Institute (RPI)
+    start: 2017-08-01
+    end: 2021-12-31
+    summary: |
+      Thesis supervised by Prof. Richard Radke. Research focused on cross-domain few-shot learning, weakly supervised action localization, and deep metric learning.
+  - degree: MS in Computer Engineering
+    institution: Rensselaer Polytechnic Institute (RPI)
+    start: 2017-08-01
+    end: 2019-05-31
+  - degree: BS in Electrical Engineering
+    institution: Bangladesh University of Engineering and Technology (BUET)
+    start: 2012-01-01
+    end: 2017-02-28
+
+experience:
+  - role: Computer Vision & Deep Learning Engineer
+    org: NVIDIA
+    start: 2022-01-01
+    summary: |
+      - Led end-to-end development of production 2D/3D perception models, from data curation through deployment with DLA integration and in-vehicle validation.
+      - Architected multi-task 2D detection pipeline, implementing pruning and quantization-aware training for optimized on-device inference.
+      - Spearheaded 3D lane and object detection pipeline using self-supervised training with SAM-based auto-labeling, reducing annotation costs.
+      - Designed novel KPIs for targetless camera-lidar calibration evaluation, enabling quality assessment without ground truth (ICRA 2023).
+  - role: Graduate Research Assistant
+    org: Rensselaer Polytechnic Institute
+    start: 2017-08-20
+    end: 2021-12-31
+    summary: |
+      Developed frameworks for cross-domain few-shot learning, weakly supervised temporal action localization, and deep learning models with hybrid attention mechanism (HAMNet). Built systems for automatic tracking and anomaly detection at airport security checkpoints.
+  - role: Research Intern
+    org: Microsoft Research
+    start: 2021-05-17
+    end: 2021-08-27
+    summary: |
+      Worked on self-supervised multi-task representation learning for 3D computer vision, focusing on camera pose estimation and segmentation tasks.
+  - role: Research Intern
+    org: IBM Research
+    start: 2020-06-11
+    end: 2020-08-27
+    summary: |
+      Researched contrastive representation learning for transfer learning. Proposed joint objective of self-supervised contrastive loss with cross-entropy for better transferability.
+  - role: Research Intern
+    org: Kitware Inc.
+    start: 2019-05-18
+    end: 2019-08-18
+    summary: |
+      Developed DOA-GAN for image and video copy-move forgery detection and localization.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: PyTorch
+        level: 5
+      - label: Deep Learning
+        level: 5
+      - label: Computer Vision
+        level: 5
+      - label: C++
+        level: 4
+  - name: Research Areas
+    items:
+      - label: Few-shot Learning
+        level: 5
+      - label: Self-supervised Learning
+        level: 5
+      - label: Action Detection
+        level: 4
+      - label: Object Tracking
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+  - name: Bengali
+    level: 5
+
+awards:
+  - title: Best Paper Award
+    awarder: ICDSC 2018
+    date: "2018-09-01"
+    summary: |
+      Awarded for research on computer vision and deep learning applications.

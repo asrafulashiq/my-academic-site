@@ -2,7 +2,7 @@
 
 This is the source repository for my personal academic website hosted at [asrafulashiq.github.io](https://asrafulashiq.github.io/).
 
-Built with [Hugo](https://gohugo.io/) and [HugoBlox](https://hugoblox.com/) (formerly Wowchemy Academic).
+Built with [Hugo](https://gohugo.io/) and [HugoBlox](https://hugoblox.com/) Resume theme.
 
 ## Prerequisites
 
@@ -29,16 +29,17 @@ npm install
 my-academic-site/
 ├── config/_default/     # Site configuration
 │   ├── hugo.yaml        # Main Hugo config
-│   ├── params.yaml      # Theme parameters
-│   ├── menus.yaml       # Navigation menus
-│   └── languages.yaml   # Language settings
+│   ├── params.yaml      # Theme parameters (identity, theme, layout)
+│   └── menus.yaml       # Navigation menus
 ├── content/             # Website content (Markdown)
-│   ├── authors/         # Author profiles
-│   ├── home/            # Homepage widgets
-│   ├── publication/     # Publications
-│   └── project/         # Projects
-├── assets/              # Images and media
+│   ├── _index.md        # Homepage with section blocks
+│   └── publication/     # Publications
+├── data/
+│   └── authors/
+│       └── admin.yaml   # Author profile (bio, experience, skills, education)
+├── assets/media/        # Images (avatar, etc.)
 ├── static/              # Static files (copied as-is)
+│   └── .nojekyll        # Disables Jekyll on GitHub Pages
 ├── public/              # Generated site (git submodule → asrafulashiq.github.io)
 ├── package.json         # Node.js dependencies (TailwindCSS)
 └── go.mod               # Hugo module dependencies
@@ -65,17 +66,16 @@ Open [http://localhost:1313](http://localhost:1313) in your browser.
 
 ### 3. Make changes
 
-Edit files in the `content/` directory:
-
-- **Profile**: `content/authors/admin/_index.md`
-- **Homepage widgets**: `content/home/`
+- **Profile/Bio**: `data/authors/admin.yaml`
+- **Homepage sections**: `content/_index.md` (blocks: biography, experience, skills, publications, awards)
 - **Publications**: `content/publication/`
-- **Projects**: `content/project/`
+- **Site config**: `config/_default/params.yaml`
+- **Navigation**: `config/_default/menus.yaml`
 
 ### 4. Build the site
 
 ```bash
-hugo
+hugo --minify
 ```
 
 ### 5. Deploy to GitHub Pages
@@ -95,6 +95,15 @@ Or use the helper script:
 
 ## Common Tasks
 
+### Update profile information
+
+Edit `data/authors/admin.yaml`:
+- `bio` - About me text
+- `experience` - Work history
+- `education` - Academic background
+- `skills` - Technical skills
+- `links` - Social/contact links
+
 ### Add a new publication
 
 1. Create a new folder in `content/publication/`:
@@ -106,47 +115,40 @@ Or use the helper script:
    ```yaml
    ---
    title: "Paper Title"
-   authors:
-     - admin
-     - Co-Author Name
+   authors: [A Author, B Author]
    date: "2024-01-01"
-   publication_types: ["article-journal"]  # or "paper-conference"
+   publication_types: ["1"]  # 1=Conference, 2=Journal, 3=Preprint
    publication: "Conference/Journal Name"
-   abstract: "Abstract text..."
-   links:
-     - type: pdf
-       url: "paper.pdf"
-     - type: code
-       url: "https://github.com/..."
+   publication_short: "CONF"
+   summary: "Brief description..."
+   url_pdf: "https://arxiv.org/..."
+   url_code: "https://github.com/..."
    ---
    ```
 
-3. Add `featured.jpg` for thumbnail (optional)
-
-### Update profile information
-
-Edit `content/authors/admin/_index.md`
-
 ### Modify homepage sections
 
-Edit files in `content/home/`:
-- `about.md` - Bio section
-- `experience.md` - Work experience
-- `publications.md` - Publications widget
-- `contact.md` - Contact info
+Edit `content/_index.md` to add/remove/reorder blocks:
+- `biography` - Profile with avatar
+- `experience` - Work history timeline
+- `skills` - Technical skills
+- `collection` - Publications list
+- `awards` - Awards section
 
 ## Troubleshooting
 
+### CSS not loading on GitHub Pages
+
+Ensure `static/.nojekyll` exists. This file tells GitHub Pages to skip Jekyll processing (which ignores files starting with `_`).
+
 ### TailwindCSS not found
 
-Make sure to run `npm install` in the project directory:
 ```bash
-npm install tailwindcss @tailwindcss/typography
+npm install
 ```
 
 ### Module download fails
 
-Ensure Go is installed and run:
 ```bash
 hugo mod get -u
 ```
@@ -159,9 +161,8 @@ git submodule update --init --recursive
 
 ### Deprecated warnings
 
-The content uses some deprecated front matter keys. These are warnings only and don't affect the build. To fix them:
+The content uses some deprecated front matter keys. These are warnings only and don't affect the build. To fix:
 - Replace `url_pdf`, `url_code`, etc. with `links: [{type: pdf, url: ...}]` format
-- Replace `_build` with `build` in front matter
 
 ## License
 

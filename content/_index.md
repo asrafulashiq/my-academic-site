@@ -42,6 +42,7 @@ sections:
     id: publications
     content:
       title: Publications
+      count: 0
       filters:
         folders:
           - publication
